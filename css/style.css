@@ -186,11 +186,14 @@ aside {
 }
 .sub-menu li {
     border-bottom: 1px #ddd solid;
+	/*display: flex; /* flexbox */
+	/*flex-wrap: wrap; /* 折返し指定 */
 }
 .sub-menu a {
     color: #432;
     padding: 10px;
     display: block;
+    /*width: 50%;*/
 }
 .sub-menu a:hover {
     color: #0bd;
