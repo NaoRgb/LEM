@@ -94,8 +94,8 @@ iframe {
 /* HOME
 ------------------------------- */
 #home {
-    background-image: url(../images/hair-1.png);
-    min-height: 100vh;
+    background-image: url();
+/*    background-image: url(../images/hair-1.png);    min-height: 100vh;
     /*width: 1000px;
     height: auto;
     margin-top: 20;*/
@@ -118,7 +118,8 @@ iframe {
 /* NEWS
 ------------------------------- */
 #news {
-    background-image: url(../images/hair-1.png);
+    background-image: url();
+/*    background-image: url(../images/hair-1.png); */
     height: 270px;
     margin-bottom: 40px;
 }
