@@ -8,7 +8,7 @@ html {
 body{
     font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", sans-serif;
     line-height: 1.7;
-    color: #111111;
+    color: #111;
     /*color: #432;*/
 }
 a {
@@ -25,12 +25,11 @@ img {
 
 /* 大きな背景画像 */
 .big-bg {
-    /*background-size: cover;*/
-    background-size: 70%;
-    /*background-position: center top;*/
-    background-position: center;
+    background-size: cover;
+    /*background-size: 70%;*/
+    background-position: center top;
     opacity: 0.85;
-
+    /*border-bottom: 8px solid #432;*/
 }
 
 /* 見出し */
@@ -39,7 +38,10 @@ img {
     font-family: 'Philosopher', serif;
     text-transform: uppercase;
     font-weight: normal;
+    margin-top: 50px;
+    /*margin-top: 30px;*/
 }
+
 .sub-title {
     font-size: 1.375rem;
     padding: 0 8px 8px;
@@ -69,6 +71,7 @@ iframe {
 .page-header {
     display: flex;
     justify-content: space-between;
+    padding-bottom: 30px;
 }
 .logo {
     width: 50px;
@@ -122,7 +125,8 @@ iframe {
     background-image: url();
 /*    background-image: url(../images/img001.jpg); */
     height: 270px;
-    margin-bottom: 40px;
+    /*margin-top: 50px;*/
+    margin-bottom: 50px;
 }
 #news .page-title {
     text-align: center;
@@ -130,7 +134,7 @@ iframe {
 .news-contents {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 50px;
+    /*margin-bottom: 30px;*/
 }
 
 /* 記事部分 */
@@ -213,10 +217,12 @@ aside p {
 }
 .menu-content {
     max-width: 560px;
-    margin-top: 10%;
+    /*margin-top: 10%;*/
+
 }
 .menu-content .page-title {
     text-align: center;
+    margin-bottom: 50px;
 }
 .menu-content p {
     font-size: 1.125rem;
@@ -239,6 +245,10 @@ aside p {
 #contact {
 /*    background-image: url(../images/contact-bg.jpg);*/
     min-height: 100vh;
+}
+#contact .page-title {
+    text-align: center;
+    margin-bottom: 50px;
 }
 
 /* フォーム */
@@ -351,7 +361,7 @@ footer p {
         flex-direction: column;
     }
     #news .page-title {
-        margin-top: 30px;
+        margin-top: 40px;
     }
     article,
     aside {
@@ -386,7 +396,7 @@ footer p {
 
     /* MENU */
     .menu-content {
-        margin-top: 20%;
+        margin-top: 40px;
     }
 
     /* CONTACT */
