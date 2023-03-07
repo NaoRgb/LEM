@@ -194,7 +194,8 @@ aside {
 .sub-menu a {
     color: #432;
     padding: 10px;
-    display: block;
+    display: flex;
+    gap: 130px;
     /*width: 50%;*/
 }
 .sub-menu a:hover {
@@ -207,7 +208,7 @@ aside p {
 /* MENU
 ------------------------------- */
 #menu {
-    background-image: url(../images/menu-bg.jpg);
+ /*   background-image: url(../images/menu-bg.jpg);*/
     min-height: 100vh;
 }
 .menu-content {
@@ -236,7 +237,7 @@ aside p {
 /* CONTACT
 ------------------------------- */
 #contact {
-    background-image: url(../images/contact-bg.jpg);
+/*    background-image: url(../images/contact-bg.jpg);*/
     min-height: 100vh;
 }
 
